@@ -1,0 +1,156 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2024-08-28T01:21:19+08:00
+
+Notes: 4
+Binaries: 1
+Archives: 0
+Standards: 125
+
+Apache Licensed: 125
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    D:/JavaProjects/commons-exec/.github/dependabot.yml
+  AL    D:/JavaProjects/commons-exec/.github/GH-ROBOTS.txt
+  AL    D:/JavaProjects/commons-exec/.github/workflows/codeql-analysis.yml
+  AL    D:/JavaProjects/commons-exec/.github/workflows/maven.yml
+  AL    D:/JavaProjects/commons-exec/.github/workflows/scorecards-analysis.yml
+  AL    D:/JavaProjects/commons-exec/build.xml
+  AL    D:/JavaProjects/commons-exec/CODE_OF_CONDUCT.md
+  AL    D:/JavaProjects/commons-exec/CONTRIBUTING.md
+  N     D:/JavaProjects/commons-exec/LICENSE.txt
+  N     D:/JavaProjects/commons-exec/NOTICE.txt
+  AL    D:/JavaProjects/commons-exec/pmd.xml
+  AL    D:/JavaProjects/commons-exec/pom.xml
+  AL    D:/JavaProjects/commons-exec/README.md
+  N     D:/JavaProjects/commons-exec/RELEASE-NOTES.txt
+  AL    D:/JavaProjects/commons-exec/SECURITY.md
+  AL    D:/JavaProjects/commons-exec/src/assembly/bin.xml
+  AL    D:/JavaProjects/commons-exec/src/assembly/src.xml
+  AL    D:/JavaProjects/commons-exec/src/changes/changes.xml
+  AL    D:/JavaProjects/commons-exec/src/changes/release-notes.vm
+  AL    D:/JavaProjects/commons-exec/src/conf/checkstyle.xml
+  AL    D:/JavaProjects/commons-exec/src/conf/findbugs-exclude-filter.xml
+  AL    D:/JavaProjects/commons-exec/src/conf/HEADER.txt
+  AL    D:/JavaProjects/commons-exec/src/conf/pmd-ruleset.xml
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/CommandLine.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/DaemonExecutor.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/DefaultExecuteResultHandler.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/DefaultExecutor.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/environment/DefaultProcessingEnvironment.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/environment/EnvironmentUtils.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/environment/OpenVmsProcessingEnvironment.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/environment/package-info.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/ExecuteException.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/ExecuteResultHandler.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/ExecuteStreamHandler.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/ExecuteWatchdog.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/Executor.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/InputStreamPumper.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/launcher/CommandLauncher.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/launcher/CommandLauncherFactory.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/launcher/CommandLauncherImpl.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/launcher/CommandLauncherProxy.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/launcher/Java13CommandLauncher.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/launcher/OS2CommandLauncher.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/launcher/package-info.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/launcher/VmsCommandLauncher.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/launcher/WinNTCommandLauncher.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/LogOutputStream.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/OS.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/package-info.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/ProcessDestroyer.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/PumpStreamHandler.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/ShutdownHookProcessDestroyer.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/StreamPumper.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/ThreadUtil.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/TimeoutObserver.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/util/DebugUtils.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/util/MapUtils.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/util/package-info.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/util/StringUtils.java
+  AL    D:/JavaProjects/commons-exec/src/main/java/org/apache/commons/exec/Watchdog.java
+  AL    D:/JavaProjects/commons-exec/src/main/javadoc/overview.html
+  AL    D:/JavaProjects/commons-exec/src/media/apache-commons-exec.svg
+  AL    D:/JavaProjects/commons-exec/src/media/apache-commons.svg
+  N     D:/JavaProjects/commons-exec/src/media/readme.txt
+  AL    D:/JavaProjects/commons-exec/src/site/apt/commandline.apt
+  AL    D:/JavaProjects/commons-exec/src/site/apt/index.apt
+  AL    D:/JavaProjects/commons-exec/src/site/apt/technical.apt
+  AL    D:/JavaProjects/commons-exec/src/site/apt/tutorial.apt
+  AL    D:/JavaProjects/commons-exec/src/site/fml/faq.fml
+  B     D:/JavaProjects/commons-exec/src/site/resources/images/apache-commons-exec.png
+  AL    D:/JavaProjects/commons-exec/src/site/site.xml
+  AL    D:/JavaProjects/commons-exec/src/site/xdoc/download_exec.xml
+  AL    D:/JavaProjects/commons-exec/src/site/xdoc/issue-tracking.xml
+  AL    D:/JavaProjects/commons-exec/src/site/xdoc/mail-lists.xml
+  AL    D:/JavaProjects/commons-exec/src/site/xdoc/testmatrix.xml
+  AL    D:/JavaProjects/commons-exec/src/test/bin/testme.bat
+  AL    D:/JavaProjects/commons-exec/src/test/bin/testme.dcl
+  AL    D:/JavaProjects/commons-exec/src/test/bin/testme.sh
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/AbstractExecTest.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/CommandLineTest.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/DefaultExecutorTest.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/environment/EnvironmentUtilsTest.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/issues/Exec33Test.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/issues/Exec34Test.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/issues/Exec36Test.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/issues/Exec41Test.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/issues/Exec44Test.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/issues/Exec49Test.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/issues/Exec57Test.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/issues/Exec60Test.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/issues/Exec62Test.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/issues/Exec65Test.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/LogOutputStreamTest.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/PumpStreamHandlerTest.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/StandAloneTest.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/TestUtil.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/TutorialTest.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/util/MapUtilTest.java
+  AL    D:/JavaProjects/commons-exec/src/test/java/org/apache/commons/exec/util/StringUtilTest.java
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/acrord32.bat
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/acrord32.sh
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/environment.bat
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/environment.dcl
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/environment.sh
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/error.bat
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/error.dcl
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/error.sh
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/forever.bat
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/forever.dcl
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/forever.sh
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/issues/exec-57-detached.sh
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/issues/exec-57-nohup.sh
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/issues/exec-62.sh
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/issues/exec-65.sh
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/ping.bat
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/ping.dcl
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/ping.sh
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/printargs.bat
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/printargs.dcl
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/printargs.sh
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/redirect.sh
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/sleep.bat
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/sleep.sh
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/standalone.sh
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/stdin.bat
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/stdin.dcl
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/stdin.sh
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/test.bat
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/test.dcl
+  AL    D:/JavaProjects/commons-exec/src/test/scripts/test.sh
+ 
+*****************************************************

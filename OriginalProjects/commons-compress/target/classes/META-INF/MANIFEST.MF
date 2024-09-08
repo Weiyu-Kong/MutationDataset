@@ -1,0 +1,78 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 17
+Automatic-Module-Name: org.apache.commons.compress
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Extension-Name: org.apache.commons.compress
+Implementation-Title: Apache Commons Compress
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Implementation-Version: 1.27.0-SNAPSHOT
+Main-Class: org.apache.commons.compress.archivers.Lister
+Specification-Title: Apache Commons Compress
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 1.27.0-SNAPSHOT
+X-Compile-Source-JDK: 1.8
+X-Compile-Target-JDK: 1.8
+Bundle-Description: Apache Commons Compress defines an API for working w
+ ithcompression and archive formats. These include bzip2, gzip, pack200,
+ LZMA, XZ, Snappy, traditional Unix Compress, DEFLATE, DEFLATE64, LZ4,Br
+ otli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.
+Bundle-DocURL: https://commons.apache.org/proper/commons-compress/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons Compress
+Bundle-SymbolicName: org.apache.commons.commons-compress
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.27.0.SNAPSHOT
+Export-Package: org.apache.commons.compress;version="1.27.0.SNAPSHOT",or
+ g.apache.commons.compress.archivers;version="1.27.0.SNAPSHOT",org.apach
+ e.commons.compress.archivers.ar;version="1.27.0.SNAPSHOT",org.apache.co
+ mmons.compress.archivers.arj;version="1.27.0.SNAPSHOT",org.apache.commo
+ ns.compress.archivers.cpio;version="1.27.0.SNAPSHOT",org.apache.commons
+ .compress.archivers.dump;version="1.27.0.SNAPSHOT",org.apache.commons.c
+ ompress.archivers.examples;version="1.27.0.SNAPSHOT",org.apache.commons
+ .compress.archivers.jar;version="1.27.0.SNAPSHOT",org.apache.commons.co
+ mpress.archivers.sevenz;version="1.27.0.SNAPSHOT",org.apache.commons.co
+ mpress.archivers.tar;version="1.27.0.SNAPSHOT",org.apache.commons.compr
+ ess.archivers.zip;version="1.27.0.SNAPSHOT",org.apache.commons.compress
+ .changes;version="1.27.0.SNAPSHOT",org.apache.commons.compress.compress
+ ors;version="1.27.0.SNAPSHOT",org.apache.commons.compress.compressors.b
+ rotli;version="1.27.0.SNAPSHOT",org.apache.commons.compress.compressors
+ .bzip2;version="1.27.0.SNAPSHOT",org.apache.commons.compress.compressor
+ s.deflate;version="1.27.0.SNAPSHOT",org.apache.commons.compress.compres
+ sors.deflate64;version="1.27.0.SNAPSHOT",org.apache.commons.compress.co
+ mpressors.gzip;version="1.27.0.SNAPSHOT",org.apache.commons.compress.co
+ mpressors.lz4;version="1.27.0.SNAPSHOT",org.apache.commons.compress.com
+ pressors.lz77support;version="1.27.0.SNAPSHOT",org.apache.commons.compr
+ ess.compressors.lzma;version="1.27.0.SNAPSHOT",org.apache.commons.compr
+ ess.compressors.lzw;version="1.27.0.SNAPSHOT",org.apache.commons.compre
+ ss.compressors.pack200;version="1.27.0.SNAPSHOT",org.apache.commons.com
+ press.compressors.snappy;version="1.27.0.SNAPSHOT",org.apache.commons.c
+ ompress.compressors.xz;version="1.27.0.SNAPSHOT",org.apache.commons.com
+ press.compressors.z;version="1.27.0.SNAPSHOT",org.apache.commons.compre
+ ss.compressors.zstandard;version="1.27.0.SNAPSHOT",org.apache.commons.c
+ ompress.harmony;version="1.27.0.SNAPSHOT",org.apache.commons.compress.h
+ armony.archive.internal.nls;version="1.27.0.SNAPSHOT",org.apache.common
+ s.compress.harmony.pack200;version="1.27.0.SNAPSHOT",org.apache.commons
+ .compress.harmony.unpack200;version="1.27.0.SNAPSHOT",org.apache.common
+ s.compress.harmony.unpack200.bytecode;version="1.27.0.SNAPSHOT",org.apa
+ che.commons.compress.harmony.unpack200.bytecode.forms;version="1.27.0.S
+ NAPSHOT",org.apache.commons.compress.java.util.jar;version="1.27.0.SNAP
+ SHOT",org.apache.commons.compress.parallel;version="1.27.0.SNAPSHOT",or
+ g.apache.commons.compress.utils;version="1.27.0.SNAPSHOT"
+Import-Package: org.tukaani.xz;resolution:=optional,org.brotli.dec;resol
+ ution:=optional,com.github.luben.zstd;resolution:=optional,org.objectwe
+ b.asm;resolution:=optional,javax.crypto;resolution:=optional,javax.cryp
+ to.spec;resolution:=optional,org.apache.commons.io;resolution:=optional
+ ,org.apache.commons.io.build;resolution:=optional,org.apache.commons.io
+ .file.attribute;resolution:=optional,org.apache.commons.io.function;res
+ olution:=optional,org.apache.commons.io.input;resolution:=optional,org.
+ apache.commons.io.output;resolution:=optional,org.apache.commons.lang3;
+ resolution:=optional,org.apache.commons.lang3.reflect;resolution:=optio
+ nal,org.apache.commons.codec.digest;resolution:=optional,org.apache.com
+ mons.codec;resolution:=optional
+Include-Resource: META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt=N
+ OTICE.txt
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.4.1.202306080939
+

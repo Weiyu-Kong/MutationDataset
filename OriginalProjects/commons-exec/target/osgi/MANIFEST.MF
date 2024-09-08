@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 17
+Bundle-Description: Apache Commons Exec is a library to reliably execute
+  external processes from within the JVM.
+Bundle-DocURL: https://commons.apache.org/proper/commons-exec/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons Exec
+Bundle-SymbolicName: org.apache.commons.commons-exec
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.4.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Export-Package: org.apache.commons.exec;version="1.4.1.SNAPSHOT",org.apa
+ che.commons.exec.environment;version="1.4.1.SNAPSHOT",org.apache.common
+ s.exec.launcher;version="1.4.1.SNAPSHOT",org.apache.commons.exec.util;v
+ ersion="1.4.1.SNAPSHOT"
+Include-Resource: META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt=N
+ OTICE.txt
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.4.1.202306080939

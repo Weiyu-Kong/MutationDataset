@@ -1,0 +1,11 @@
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+ <copy todir="D:\JavaProjects\Math\target/apidocs/META-INF">
+  <fileset dir="D:\JavaProjects\Math">
+   <include name="LICENSE.txt"/>
+   <include name="NOTICE.txt"/>
+  </fileset>
+ </copy>
+</target>
+
+</project>
